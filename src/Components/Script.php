@@ -1,8 +1,8 @@
 <?php
 
-namespace Elhebert\SubresourceIntegrity\Components;
+namespace Dkvhin\SubresourceIntegrity\Components;
 
-use Elhebert\SubresourceIntegrity\SriFacade as Sri;
+use Dkvhin\SubresourceIntegrity\SriFacade as Sri;
 use Illuminate\View\Component;
 
 class Script extends Component

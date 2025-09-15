@@ -1,6 +1,6 @@
 # Contributing
 
-Contributions are **welcome** and will be fully **credited**. We accept contributions via Pull Requests on [Github](https://github.com/Elhebert/laravel-sri).
+Contributions are **welcome** and will be fully **credited**. We accept contributions via Pull Requests on [Github](https://github.com/Dkvhin/laravel-sri).
 
 Please read and understand the contribution guide before creating an issue or pull request.
 

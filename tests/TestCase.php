@@ -1,8 +1,8 @@
 <?php
 
-namespace Elhebert\SubresourceIntegrity\Tests;
+namespace Dkvhin\SubresourceIntegrity\Tests;
 
-use Elhebert\SubresourceIntegrity\SriServiceProvider;
+use Dkvhin\SubresourceIntegrity\SriServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra

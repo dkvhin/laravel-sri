@@ -1,8 +1,8 @@
 <?php
 
-namespace Elhebert\SubresourceIntegrity\Tests;
+namespace Dkvhin\SubresourceIntegrity\Tests;
 
-use Elhebert\SubresourceIntegrity\SriFacade as Sri;
+use Dkvhin\SubresourceIntegrity\SriFacade as Sri;
 
 class ReadHashFromConfigTest extends TestCase
 {

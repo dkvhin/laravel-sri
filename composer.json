@@ -1,5 +1,5 @@
 {
-    "name": "elhebert/laravel-sri",
+    "name": "dkvhin/laravel-sri",
     "description": "Subresource Integrity hash generator for laravel",
     "keywords": [
         "sri",
@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Elhebert\\SubresourceIntegrity\\": "src"
+            "Dkvhin\\SubresourceIntegrity\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Elhebert\\SubresourceIntegrity\\Tests\\": "tests"
+            "Dkvhin\\SubresourceIntegrity\\Tests\\": "tests"
         }
     },
     "config": {
@@ -37,10 +37,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Elhebert\\SubresourceIntegrity\\SriServiceProvider"
+                "Dkvhin\\SubresourceIntegrity\\SriServiceProvider"
             ],
             "aliases": {
-                "Sri": "Elhebert\\SubresourceIntegrity\\SriFacade"
+                "Sri": "Dkvhin\\SubresourceIntegrity\\SriFacade"
             }
         }
     }

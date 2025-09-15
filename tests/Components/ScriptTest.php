@@ -1,6 +1,6 @@
 <?php
 
-namespace Elhebert\SubresourceIntegrity\Tests;
+namespace Dkvhin\SubresourceIntegrity\Tests;
 
 use Illuminate\Support\Facades\View;
 

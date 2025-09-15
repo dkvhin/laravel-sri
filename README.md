@@ -2,14 +2,14 @@
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![StyleCI](https://styleci.io/repos/119791861/shield?branch=master)](https://styleci.io/repos/119791861)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/elhebert/laravel-sri/Run%20PHPUnit%20tests?label=Tests&style=flat-square)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/elhebert/laravel-sri.svg?style=flat-square)](https://packagist.org/packages/elhebert/laravel-sri)
-[![Total Downloads](https://img.shields.io/packagist/dt/elhebert/laravel-sri.svg?style=flat-square)](https://packagist.org/packages/elhebert/laravel-sri)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dkvhin/laravel-sri/Run%20PHPUnit%20tests?label=Tests&style=flat-square)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/dkvhin/laravel-sri.svg?style=flat-square)](https://packagist.org/packages/dkvhin/laravel-sri)
+[![Total Downloads](https://img.shields.io/packagist/dt/dkvhin/laravel-sri.svg?style=flat-square)](https://packagist.org/packages/dkvhin/laravel-sri)
 
 Small Laravel 8+ package that'll generate the integrity hashes for your style and script files.
 
-For Laravel 5.5+ support, use the [v1 branch](https://github.com/Elhebert/laravel-sri/tree/v1).
-For Laravel 6+ support, use the [v2 branch](https://github.com/Elhebert/laravel-sri/tree/v2).
+For Laravel 5.5+ support, use the [v1 branch](https://github.com/Dkvhin/laravel-sri/tree/v1).
+For Laravel 6+ support, use the [v2 branch](https://github.com/Dkvhin/laravel-sri/tree/v2).
 
 ## About Subresources Integrity
 
@@ -22,7 +22,7 @@ Troy Hunt wrote an article speaking on the subject, you can read it [here](https
 ## Installation
 
 ```sh
-composer require elhebert/laravel-sri
+composer require dkvhin/laravel-sri
 ```
 
 This package uses [auto-discovery](https://laravel.com/docs/5.5/packages#package-discovery), so you don't have to do anything. It works out of the box.
@@ -32,7 +32,7 @@ This package uses [auto-discovery](https://laravel.com/docs/5.5/packages#package
 If you want to make changes in the configuration you can publish the config file using
 
 ```sh
-php artisan vendor:publish --provider="Elhebert\SubresourceIntegrity\SriServiceProvider"
+php artisan vendor:publish --provider="Dkvhin\SubresourceIntegrity\SriServiceProvider"
 ```
 
 ### Content of the configuration
@@ -151,7 +151,7 @@ It expect a `mix-sri.json` file with a similar structure to the `mix-manifest.js
 
 The filename and path can be changed in the configuration at any time.
 
-> Self promotion: I made a Laravel Mix extension [laravel-mix-sri](https://github.com/Elhebert/laravel-mix-sri) for this purpose.
+> Self promotion: I made a Laravel Mix extension [laravel-mix-sri](https://github.com/Dkvhin/laravel-mix-sri) for this purpose.
 
 ### Generate them on the fly
 

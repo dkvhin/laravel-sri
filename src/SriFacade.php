@@ -1,6 +1,6 @@
 <?php
 
-namespace Elhebert\SubresourceIntegrity;
+namespace Dkvhin\SubresourceIntegrity;
 
 use Illuminate\Support\Facades\Facade;
 

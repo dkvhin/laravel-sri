@@ -1,9 +1,9 @@
 <?php
 
-namespace Elhebert\SubresourceIntegrity;
+namespace Dkvhin\SubresourceIntegrity;
 
-use Elhebert\SubresourceIntegrity\Components\Link;
-use Elhebert\SubresourceIntegrity\Components\Script;
+use Dkvhin\SubresourceIntegrity\Components\Link;
+use Dkvhin\SubresourceIntegrity\Components\Script;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
